@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "roboto",sans-serif;
+}
+.container{
+    width: 932px;
+    margin: 0 auto;
+}
+header{
+    width: 932px;
+    height: 120px;
+    background: slategrey;
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    height: 120px;
+    object-fit: contain;
+    border: 0;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header div {
+    height: 100%;
+    width: 100px;
+}
+
+nav{
+    height: 35px;
+    background:yellow;
+    margin-bottom: 5px;
+}
+nav .menu ul{
+    list-style: none;
+}
+nav .menu ul li{
+    float: left;
+    line-height: 35px;
+    padding: 0 15px;
+}
+nav .menu ul li a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+nav .search{
+    float: right;
+    line-height: 35px;
+    margin-right: 25px;
+}
+
+#sile a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+#sile a img {
+    height: 100%;
+    width: 25%;
+    object-fit: cover;
+}
+article h3{
+    text-align: center;
+    padding: 15px 0;
+    color: slategray;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+article .new_list .new_item {
+    width: 280px;
+    height: 400px;
+    padding: 40px 80px 80px 80px;
+    float: left;
+    border: 3px solid slategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+article .new_list .new_item img {
+    height: 1000px;
+    width: 350px;
+    margin: 10px 0;
+}
+article .new_list .new_item a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-bottom: 40px; 
+    display: block;
+    font-weight: bold;
+}
+
+article .new_list .new_item .content  a {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+    height: auto;
+  
+}
+footer{
+    height: 40px;
+    background:skyblue;
+    line-height: 40px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
